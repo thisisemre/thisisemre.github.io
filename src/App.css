@@ -1,38 +1,81 @@
-.App {
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+section {
+  padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+.projects-container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.live-projects, .other-projects {
+  flex: 1;
+  margin: 0 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.live-projects h2, .other-projects h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.live-projects p, .other-projects p {
+  font-size: 18px;
+}
+
+.live-projects a, .other-projects a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.live-projects a:hover, .other-projects a:hover {
+  text-decoration: underline;
+}
+header {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding: 10px 20px;
 }
 
-.App-link {
-  color: #61dafb;
+nav {
+  display: flex;
+  gap: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.social-icon {
+  width: 44px; /* veya istediğiniz boyut */
+  height: 44px; /* veya istediğiniz boyut */
 }
