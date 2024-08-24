@@ -26,6 +26,15 @@ function Projects(){
                     <p>This is a blog application built with React and Node.js, featuring a modern and responsive design with CRUD operations and user authentication.</p>
                 </div>
                 </p>
+                <p>
+                    <a href="https://github.com/thisisemre/VideoJumpControls" target="_blank" rel="noopener noreferrer">
+                    VideoJumpControls
+                    </a>
+                    <div className="project-about">
+                    <h3>About</h3>
+                    <p>A Chrome extension that allows users to fast-forward or rewind videos using Shift + D and Shift + A keyboard shortcuts.</p>
+                </div>
+                </p>
             </section>
         </div>
     );
